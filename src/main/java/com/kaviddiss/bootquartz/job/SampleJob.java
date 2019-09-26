@@ -12,6 +12,7 @@ public class SampleJob implements Job {
     @Autowired
     private SampleService service;
 
+    //
     @Override
     public void execute(JobExecutionContext jobExecutionContext) {
         service.hello();
